@@ -82,7 +82,7 @@ Node.js + Express
      │
      ▼
 MongoDB
-     
+
 Socket.IO
      │
      ▼
@@ -104,7 +104,7 @@ The project includes realistic demo data:
 
 ---
 
-## 🔌 API
+## 🔌 API Overview
 
 Main API resources:
 
@@ -122,6 +122,9 @@ GET    /api/customers
 ```
 
 Bookings and mechanics APIs support pagination, search, filtering and sorting where applicable.
+
+📖 **Full API Documentation:** [API_DOCUMENTATION.md](./API_DOCUMENTATION.md)
+The full document covers request/response schemas, query parameters, Socket.IO real-time events, error format, and rate limiting.
 
 ---
 
